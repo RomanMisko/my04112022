@@ -1,13 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Musical Instruments Store!</title>
+    <link rel="shortcut icon" href="img/musical-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <h1>Hello HTML !!!</h1>
-    <img src="img/001.jpeg" alt="ghfdhgfd">
+    <header class="header">
+        <div class="header__top-row">
+            <p class="header__top-row-header-text">Welcome to Our Musical Instruments Store!</p>
+            <a href="mailto:sound@email.com" class="header__top-row-link-email">sound@email.com</a>
+            <a href="tel:+12345678900" class="header__top-row-link-phone">+1 (234) 567 89 00</a>
+        </div>
+        <nav class="header__nav" style="background-color: #f8b803">
+            <div class="header__nav-logo">
+                <img width="200" src="img/musical-store-logo.svg" alt="Musical Store Logo">
+            </div>
+            <div class="header__nav-links">
+                <a href="#new-arrivals" class="header__nav-links-new-arrivals">New Arrivals</a>
+                <a href="">Best Selling</a>
+                <a href="">Guitars</a>
+                <a href="">Drums</a>
+                <a href="">Orchestric</a>
+            </div>
+            <div class="header__nav-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </nav>
+        <div class="header__banner">
+            <h1 class="header__banner-title">MUSICAL INSTRUMENTS STORE</h1>
+            <div class="header__banner-slogan">We Have <span class="highlight">Everything</span> Any Musician May
+                Need<span class="highlight">.</span></div>
+            <div class="divider"></div>
+        </div>
+    </header>
+    <main>
+        <section id="new-arrivals" class="new-arrivals">
+            <h2 class="new__arrivals-header">New Arrivals</h2>
+            <div class="divider"></div>
+            <div>
+                <img class="new-arrivals__image" src="img/baby-yoda.jpeg" alt="Baby Yoda">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <form class="footer__form" method="post" action="https://formspree.io/f/mknyoovd">
+            <label>Client name: <input type="text" name="client-name"> </label>
+            <label>Client address: <input type="email" name="client-email"> </label>
+            <input type="submit">
+        </form>
+    </footer>
 </body>
+
 </html>
